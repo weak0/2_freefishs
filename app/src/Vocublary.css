@@ -1,0 +1,86 @@
+.vocab {
+    position: absolute;
+    font-size: 30px;
+    right: 5%;
+    background-color: transparent;
+    color: black;
+    padding: 10px 40px;;
+    background-color: white;
+    width: max-content;
+    margin: 20px;
+    font-size: 20px;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.vocab:hover {
+    background-color: black;
+    color: white;
+}
+
+.vocabstatus.unactive {
+    display: none;
+}
+
+.blackboard{
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.85);
+    
+}
+.list {
+    position: relative;
+    z-index: 99;
+    background-color: white;
+    left: 50%;
+    transform: translate(-50%);
+    border: 2px solid black;
+    text-align: center;
+    max-width: 30%;
+    margin-top: 30px;
+    
+
+}
+
+.list ul {
+    list-style: none;
+    text-align: center;
+    padding-inline-start: 0px;
+    padding: 0 5px;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.list ul li {
+    padding: 10px 20px;
+    border: 2px solid black;
+    margin: 5px;
+    font-weight: bold;
+
+}
+
+.btnClose{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    font-size: 25px;
+    font-weight: bold;
+    z-index: 999;
+    text-align: center;
+    line-height: 50px;
+    right: 30%;
+    cursor: pointer;
+}
+
+.btnClose:hover {
+    background-color: black;
+    color: white;
+}

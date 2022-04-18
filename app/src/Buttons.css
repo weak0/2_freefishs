@@ -1,0 +1,28 @@
+button {
+    padding: 10px 20px;
+    width: 120px;
+    background-color: rgb(250, 246, 246);
+    color: rgb(0, 0, 0);
+    border: 0;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 25px;
+    font-weight: bold;
+    border: 2px solid black;
+}
+
+button:hover {
+    color:rgb(255, 255, 255);
+    background-color: rgb(29, 28, 28);
+    border: 2px solid black;
+}
+
+.btnPositive {
+    color: green
+    
+}
+
+.btnNegative{
+    color:red
+}
+
