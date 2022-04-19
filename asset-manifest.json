@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/2_freefishs/static/css/main.1190d7ed.css",
+    "main.js": "/2_freefishs/static/js/main.9404f49f.js",
+    "index.html": "/2_freefishs/index.html",
+    "main.1190d7ed.css.map": "/2_freefishs/static/css/main.1190d7ed.css.map",
+    "main.9404f49f.js.map": "/2_freefishs/static/js/main.9404f49f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1190d7ed.css",
+    "static/js/main.9404f49f.js"
+  ]
+}
